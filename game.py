@@ -8,11 +8,11 @@ pygame.init()
 count = 0
 screen = pygame.display.set_mode((width, height))
 
-#white = 255, 255, 255
-#black = 0, 0, 0
-#red = 255, 0, 0
-#blue = 0, 0, 255
-#green = 0, 255, 0
+white = 255, 255, 255
+black = 0, 0, 0
+red = 255, 0, 0
+blue = 0, 0, 255
+green = 0, 255, 0
 
 def score(count):
     font = pygame.font.SysFont(None, 30)
